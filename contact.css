@@ -46,6 +46,8 @@ body{
 }
 .iconbar{
     display: flex;
+    margin-left: -3vw;
+    margin-top: -0.5vw;
 }
 .search_accountbar a{
     text-decoration: none;
@@ -242,6 +244,7 @@ body{
 .linls ul li a{
     text-decoration: none;
     color: #999999;
+    font-weight: 400;
 }
 .linls ul li{
     list-style: none;

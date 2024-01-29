@@ -46,6 +46,8 @@ body{
 }
 .iconbar{
     display: flex;
+    margin-left: -3vw;
+    margin-top: -0.5vw;
 }
 .search_accountbar a{
     text-decoration: none;
@@ -167,6 +169,7 @@ body{
 .linls ul li a{
     text-decoration: none;
     color: #999999;
+    font-weight: 400;
 }
 .linls ul li{
     list-style: none;
@@ -185,3 +188,6 @@ body{
     padding-bottom: 2vw;
     font-family: "Jost", Helvetica, Arial, sans-serif;
 }
+
+
+

@@ -46,6 +46,8 @@ body{
 }
 .iconbar{
     display: flex;
+    margin-left: -3vw;
+    margin-top: -0.5vw;
 }
 .search_accountbar a{
     text-decoration: none;
@@ -63,7 +65,7 @@ body{
 .form_header p{
     font-family: "Jost", Helvetica, Arial, sans-serif;
     font-size: 5vw;
-    padding-left: 9vw;
+    padding-left: 10vw;
     /* padding-bottom: 5vw; */
     /* margin-bottom: 5vw; */
 }
@@ -73,25 +75,49 @@ body{
     margin-left: 10vw;
     margin-right: 10vw;
     padding-bottom: 0%;
+    height: 24vw;
 }
 .login_formm{
     padding-top: 2vw;
     padding-left: 1vw;
 }
 .login_formm label{
+    padding-bottom: 2vw;
+    
+}
+.frm1{
+    gap: 2vw;
+}
+#lb_username{
     font-family: "Jost", Helvetica, Arial, sans-serif;
     font-size: 1.3vw;
     font-weight: 600;
     padding-left: 2vw;
 }
+#lb_password{
+    font-family: "Jost", Helvetica, Arial, sans-serif;
+    font-size: 1.3vw;
+    font-weight: 600;
+    padding-left: 2vw;
+    padding-top: 2vw;
+}
+#lb_checkbox{
+    font-family: "Jost", Helvetica, Arial, sans-serif;
+    font-size: 1.3vw;
+    font-weight: 600;
+    padding-left: 2vw;
+
+}
 .frm1 input{
     color: #626262;
     background-color: rgba(255,255,255,1);
     border-color: #EBEBEB;
+    /* padding-bottom: 2vw; */
     /* border: 0.01px; */
 }
 #frm1_1_in{
     width: 90%;
+    margin-bottom: 1.5vw;
     height: 3vw;
     padding-left: 2vw;
     border-radius: 5px;

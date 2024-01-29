@@ -46,6 +46,8 @@ body{
 }
 .iconbar{
     display: flex;
+    margin-left: -3vw;
+    margin-top: -0.5vw;
 }
 .search_accountbar a{
     text-decoration: none;
@@ -276,6 +278,7 @@ body{
 .linls ul li a{
     text-decoration: none;
     color: #999999;
+    font-weight: 400;
 }
 .linls ul li{
     list-style: none;
@@ -293,4 +296,216 @@ body{
     padding-top: 2vw;
     padding-bottom: 2vw;
     font-family: "Jost", Helvetica, Arial, sans-serif;
+}
+
+
+
+
+/* media quary for big devive */
+@media screen and (min-width:767px) and (max-width: 1240px){
+    .navlist{
+        display: none;
+    }
+    .search_accountbar{
+        padding-left: 57%;
+    }
+    .info_abt_shop_left{
+        padding-left: 1.5%;
+        padding-top: 12%;
+    }
+    .ifo_photo_info_span{
+        font-size: 5vw;
+        padding-left: 5%;
+    }
+    .ifo_photo_info_span1{
+        padding-left: 1.5vw;
+        font-size: 2.3vw;
+    }
+    #info_abt_shop_info1{
+        font-size: 1.8vw;
+        line-height: 3vw;
+        width: 113%;
+    }
+    .info_abt_shop img{
+        padding-left: 19%;
+        width: 78%;
+    }
+    #info_abt_shop_info2{
+        font-size: 1.4vw;
+        line-height: 2vw;
+        width: 100%;
+    }
+    .soci_time_price{
+        padding-left: 0%;
+        margin-left: 0%;
+    }
+    .about_product_left img{
+        padding-left: 2.5%;
+        width: 77%;
+    }
+    .about_product_right{
+        padding-top: 7%;
+    }
+    .ifo_pro_info_span{
+        padding-left: 2%;
+    }
+    .ifo_pro_info_span1{
+        padding-left: 1.5%;
+    }
+    .about_product_right p{
+        padding-top: 5%;
+    }
+    .button_alignalign_center{
+        padding: 4% 0% 4% 0%;
+    }
+    .about_product1_right{
+        margin-left: 1.5%;
+    }
+    .about_product1_left img{
+        width: 77%;
+        padding-left: 32%;
+        padding-bottom: 13%;
+    }
+    .about_product1_right p{
+        padding-top: 8%;
+        width: 118%;
+    }
+    .footer_left{
+        padding-left: 2%;
+    }
+    .footer_center{
+        padding-left: 20%;
+    }
+}
+
+
+/* media quary for mobile */
+@media screen and (min-width:300px) and (max-width: 767px){
+    .nav{
+        display: flex;
+        flex-direction: column;
+    }
+    .navlogo img{
+        height: 6vw;
+        padding-left: 38%;
+    }
+    .navlist{
+        display: none;
+    }
+    .search_accountbar p{
+        font-size: 2vw;
+    }
+    .search_accountbar{
+        padding-left: 42%;
+        padding-top: 0%;
+    }
+    .subheader p{
+        font-size: 6vw;
+        padding-top: 5%;
+        padding-bottom: 10%;
+    }
+    .info_abt_shop{
+        display: flex;
+        flex-direction: column;
+    }
+    .info_abt_shop_left{
+        padding-left: 20%;
+        padding-top: 12%;
+    }
+    .info_abt_shop_left h1{
+        width: 150%;
+    }
+    .ifo_photo_info_span{
+        font-size: 10vw;
+        padding-left: 5%;
+        line-height: 13vw;
+    }
+    .ifo_photo_info_span1{
+        padding-left: 1.5vw;
+        font-size: 3.3vw;
+    }
+    #info_abt_shop_info1{
+        font-size: 2.2vw;
+        line-height: 3.5vw;
+        width: 141%;
+    }
+    .info_abt_shop img{
+        padding-left: 19%;
+        width: 76%;
+    }
+    #info_abt_shop_info2{
+        font-size: 1.7vw;
+        line-height: 2.5vw;
+        width: 153%;
+        padding-bottom: 10%;
+    }
+    .soci_time_price{
+        padding-left: 30%;
+        padding-bottom: 18%;
+        
+    }
+    .time_price{
+        margin-left: 0%;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .time_price1{
+        padding-bottom: 0%;
+        margin-bottom: -16%;
+    }
+    .time_price1_p1{
+        font-size: 5vw;
+    }
+    .time_price1 span {
+        font-size: 1.8vw;
+    }
+    .time_price1_p2{
+        color: #808080;
+        font-size: 1.8vw;
+    }
+    .about_product{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-left: 31%;
+    }
+    
+    .about_product_left img{
+        padding-left: 2.5%;
+        width: 126%;
+    }
+    .about_product_right{
+        padding-top: 7%;
+    }
+    .ifo_pro_info_span{
+        padding-left: 2%;
+    }
+    .ifo_pro_info_span1{
+        padding-left: 1.5%;
+    }
+    .about_product_right p{
+        padding-top: 5%;
+    }
+    .button_alignalign_center{
+        padding: 4% 0% 4% 0%;
+    }
+    .about_product1_right{
+        margin-left: 1.5%;
+    }
+    .about_product1_left img{
+        width: 77%;
+        padding-left: 32%;
+        padding-bottom: 13%;
+    }
+    .about_product1_right p{
+        padding-top: 8%;
+        width: 118%;
+    }
+    .footer_left{
+        padding-left: 2%;
+    }
+    .footer_center{
+        padding-left: 20%;
+    }
 }
