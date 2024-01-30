@@ -413,6 +413,20 @@ body{
 .linls ul li{
     list-style: none;
 }
+.linls1{
+    display: flex;
+    line-height: 2.1vw;
+    padding-bottom: 2vw;
+    font-weight: 600;
+}
+.linls1 ul li a{
+    text-decoration: none;
+    color: #999999;
+    font-weight: 400;
+}
+.linls1 ul li{
+    list-style: none;
+}
 #heading{
     font-size: 1.4vw;
     font-weight: 600;
@@ -683,6 +697,9 @@ body{
     .linls ul li a{
         line-height: 3vw;
     }
+    .linls1 ul li a{
+        line-height: 3vw;
+    }
     #footer_right_info{
         font-size: 1.7vw;
         line-height: 3vw;
@@ -939,11 +956,17 @@ body{
     .linls{
         padding-left: 26%;
     }
+    .linls1{
+        padding-left: 26%;
+    }
     .footer_center p{
         font-size: 2vw;
         font-weight: 600;
     }
     .linls ul li a{
+        line-height: 3vw;
+    }
+    .linls1 ul li a{
         line-height: 3vw;
     }
     #footer_right_info{
@@ -958,6 +981,13 @@ body{
         font-size: 2vw;
     }
 }
+
+
+
+
+
+
+
 /* media quary for MOBILE */
 
 @media screen and (min-width:300px) and (max-width: 478px)
@@ -1020,8 +1050,8 @@ body{
         text-align: center;
     }
     .button_alignalign_center{
-        padding: 4% 2% 4% 2%;
-        margin-left: 34vw;
+        padding: 6% 0% 6% 0%;
+        margin-left: 28vw;
     }
     .time_price1 span{
         font-size: 2vw;
@@ -1145,6 +1175,9 @@ body{
         font-size: 3.3vw;
         padding-bottom: 2vw;
     }
+    .other_info_left h1{
+        width: 200%;
+    }
     .other_info_left{
         margin-left: 0%;
         padding-left: 0%;
@@ -1196,8 +1229,16 @@ body{
     #contact{
         font-size: 3.1vw;
     }
+    .footer_left img{
+        padding-left: 0%;
+        margin-left: -29%;
+    }
     .linls{
-        padding-left: 17%;
+        padding-left: 11%;
+        line-height: 6vw;
+    }
+    .linls1{
+        padding-left: 22%;
         line-height: 6vw;
     }
     .footer_center p{
@@ -1205,6 +1246,9 @@ body{
         font-weight: 650;
     }
     .linls ul li a{
+        line-height: 3vw;
+    }
+    .linls1 ul li a{
         line-height: 3vw;
     }
     #footer_right_info{

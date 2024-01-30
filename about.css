@@ -283,6 +283,20 @@ body{
 .linls ul li{
     list-style: none;
 }
+.linls1{
+    display: flex;
+    line-height: 2.1vw;
+    padding-bottom: 2vw;
+    font-weight: 600;
+}
+.linls1 ul li a{
+    text-decoration: none;
+    color: #999999;
+    font-weight: 400;
+}
+.linls1 ul li{
+    list-style: none;
+}
 #heading{
     font-size: 1.4vw;
     font-weight: 600;
@@ -305,6 +319,9 @@ body{
 @media screen and (min-width:767px) and (max-width: 1240px){
     .navlist{
         display: none;
+    }
+    .navlogo img{
+        height: 5vw;
     }
     .search_accountbar{
         padding-left: 57%;
@@ -380,7 +397,7 @@ body{
 
 
 /* media quary for mobile */
-@media screen and (min-width:300px) and (max-width: 767px){
+@media screen and (min-width:560px) and (max-width: 767px){
     .nav{
         display: flex;
         flex-direction: column;
@@ -400,8 +417,8 @@ body{
         padding-top: 0%;
     }
     .subheader p{
-        font-size: 6vw;
-        padding-top: 5%;
+        font-size: 7vw;
+        padding-top: 9%;
         padding-bottom: 10%;
     }
     .info_abt_shop{
@@ -416,13 +433,13 @@ body{
         width: 150%;
     }
     .ifo_photo_info_span{
-        font-size: 10vw;
+        font-size: 7vw;
         padding-left: 5%;
-        line-height: 13vw;
+        line-height: 9vw;
     }
     .ifo_photo_info_span1{
         padding-left: 1.5vw;
-        font-size: 3.3vw;
+        font-size: 3vw;
     }
     #info_abt_shop_info1{
         font-size: 2.2vw;
@@ -431,7 +448,7 @@ body{
     }
     .info_abt_shop img{
         padding-left: 19%;
-        width: 76%;
+        width: 63%;
     }
     #info_abt_shop_info2{
         font-size: 1.7vw;
@@ -468,44 +485,312 @@ body{
         display: flex;
         flex-direction: column;
         width: 100%;
-        margin-left: 31%;
+        
     }
     
     .about_product_left img{
-        padding-left: 2.5%;
-        width: 126%;
+        padding-left: 37.5%;
+        width: 125%;
     }
     .about_product_right{
         padding-top: 7%;
+        padding-left: 22%;
+        width: 58%;
     }
     .ifo_pro_info_span{
         padding-left: 2%;
+        font-size: 6vw;
+        line-height: 8vw;
     }
     .ifo_pro_info_span1{
         padding-left: 1.5%;
     }
     .about_product_right p{
         padding-top: 5%;
+        font-size: 1.7vw;
     }
     .button_alignalign_center{
         padding: 4% 0% 4% 0%;
     }
+    .about_product_1{
+        display: flex;
+        flex-direction: column;
+    }
     .about_product1_right{
-        margin-left: 1.5%;
+        padding-left: 10.5%;
+        width: 53%;
     }
     .about_product1_left img{
-        width: 77%;
-        padding-left: 32%;
+        width: 125%;
+        padding-left: 38%;
         padding-bottom: 13%;
     }
     .about_product1_right p{
         padding-top: 8%;
         width: 118%;
+        font-size: 1.7vw;
+    }
+    .footer{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .footer_left{
+        padding-left: 34%;
+    }
+    .footer_center{
+        padding-left: 34%;
+    }
+    .footer_right{
+        padding-left: 34%;
+        text-align: center;
+    }
+    #footer_left_1{
+        letter-spacing: 0.2vw;
+        font-size: 1.6vw;
+        padding-left: 2v;
+        font-weight: 600;
+    }
+    #contact{
+        font-size: 2.5vw;
+    }
+    .linls{
+        padding-left: 26%;
+    }
+    .linls1{
+        padding-left: 26%;
+    }
+    .footer_center p{
+        font-size: 2vw;
+        font-weight: 600;
+    }
+    .linls ul li a{
+        line-height: 3vw;
+    }
+    .linls1 ul li a{
+        line-height: 3vw;
+    }
+    #footer_right_info{
+        font-size: 1.7vw;
+        line-height: 3vw;
+        padding-top: 2vw;
+    }
+    #heading{
+        font-size: 2vw;
+    }
+    #footer_right_inf{
+        font-size: 2vw;
+    }
+}
+
+
+
+
+/* media quary for mobile */
+@media screen and (min-width:300px) and (max-width: 560px){
+    .nav{
+        display: flex;
+        flex-direction: column;
+    }
+    .navlogo img{
+        height: 8vw;
+        padding-left: 35%;
+    }
+    .navlist{
+        display: none;
+    }
+    .search_accountbar p{
+        font-size: 3vw;
+    }
+    .search_accountbar{
+        padding-left: 42%;
+        padding-top: 0%;
+    }
+    .subheader p{
+        font-size: 9vw;
+        padding-top: 9%;
+        padding-bottom: 10%;
+    }
+    .info_abt_shop{
+        display: flex;
+        flex-direction: column;
+        margin-left: -17%;
+    }
+    .info_abt_shop_left{
+        padding-left: 20%;
+        padding-top: 12%;
+    }
+    .info_abt_shop_left h1{
+        width: 150%;
+    }
+    .ifo_photo_info_span{
+        font-size: 10vw;
+        padding-left: 5%;
+        line-height: 12vw;
+    }
+    .ifo_photo_info_span1{
+        padding-left: 3.5vw;
+        font-size: 4vw;
+    }
+    #info_abt_shop_info1{
+        font-size: 3.2vw;
+        line-height: 4.5vw;
+        width: 170%;
+    }
+    .info_abt_shop img{
+        padding-left: 19%;
+        width: 76%;
+    }
+    #info_abt_shop_info2{
+        font-size: 2.5vw;
+        line-height: 3.5vw;
+        width: 157%;
+        padding-bottom: 10%;
+    }
+    .soci_time_price{
+        padding-left: 30%;
+        padding-bottom: 18%;
+        
+    }
+    .time_price{
+        margin-left: 0%;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .time_price1{
+        padding-bottom: 0%;
+        margin-bottom: -16%;
+    }
+    .time_price1_p1{
+        font-size: 7vw;
+    }
+    .time_price1 span {
+        font-size: 2.1vw;
+    }
+    .time_price1_p2{
+        color: #808080;
+        font-size: 2.4vw;
+    }
+    .about_product{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-left: -13%;
+    }
+    
+    .about_product_left img{
+        padding-left: 37.5%;
+        width: 175%;
+    }
+    .about_product_right{
+        padding-top: 7%;
+        padding-left: 27%;
+        width: 58%;
+    }
+    .about_product_right h1{
+        width: 100%;
+    }
+    .ifo_pro_info_span{
+        padding-left: 0%;
+        font-size: 7vw;
+        line-height: 9vw;
+    }
+    .ifo_pro_info_span1{
+        padding-left: 1.5%;
+        font-size: 5vw;
+    }
+    .about_product_right p{
+        padding-top: 6%;
+        font-size: 2.2vw;
+        line-height: 3vw;
+        width: 133%;
+    }
+    .button_alignalign_center{
+        padding: 6% 0% 6% 0%;
+    }
+    .about_product_1{
+        display: flex;
+        flex-direction: column;
+        margin-left: -2%;
+    }
+    .about_product1_right h1{
+        width: 200%;
+    }
+    .about_product1_right{
+        width: 53%;
+        padding-left: 5%;
+    }
+    .about_product1_left img{
+        width: 170%;
+        padding-bottom: 13%;
+    }
+    .about_product1_right p{
+        padding-top: 8%;
+        width: 136%;
+        font-size: 2.5vw;
+        line-height: 4vw;
     }
     .footer_left{
         padding-left: 2%;
     }
     .footer_center{
         padding-left: 20%;
+    }
+    .footer{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .footer_left{
+        padding-left: 34%;
+    }
+    .footer_center{
+        padding-left: 34%;
+    }
+    .footer_right{
+        padding-left: 34%;
+        text-align: center;
+    }
+    #footer_left_1{
+        letter-spacing: 0.2vw;
+        font-size: 2vw;
+        padding-left: 2v;
+        font-weight: 600;
+    }
+    .footer_left img{
+        margin-left: -29%;
+    }
+    #contact{
+        font-size: 3.1vw;
+    }
+    .linls{
+        padding-left: 11%;
+        line-height: 6vw;
+    }
+    .linls1{
+        padding-left: 22%;
+        line-height: 6vw;
+    }
+    .footer_center p{
+        font-size: 2.7vw;
+        font-weight: 650;
+    }
+    .linls ul li a{
+        line-height: 3vw;
+    }
+    .linls1 ul li a{
+        line-height: 3vw;
+    }
+    #footer_right_info{
+        font-size: 2.5vw;
+        line-height: 4vw;
+        padding-top: 2vw;
+    }
+    #heading{
+        font-size: 3vw;
+    }
+    #footer_right_inf{
+        font-size: 2vw;
     }
 }

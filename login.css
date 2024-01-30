@@ -210,6 +210,20 @@ body{
 .linls ul li{
     list-style: none;
 }
+.linls1{
+    display: flex;
+    line-height: 2.1vw;
+    padding-bottom: 2vw;
+    font-weight: 600;
+}
+.linls1 ul li a{
+    text-decoration: none;
+    color: #999999;
+    font-weight: 400;
+}
+.linls1 ul li{
+    list-style: none;
+}
 #heading{
     font-size: 1.4vw;
     font-weight: 600;
@@ -223,4 +237,293 @@ body{
     padding-top: 2vw;
     padding-bottom: 2vw;
     font-family: "Jost", Helvetica, Arial, sans-serif;
+}
+
+
+
+
+
+/* media quary for big devive */
+@media screen and (min-width:767px) and (max-width: 1240px){
+    .navlist{
+        display: none;
+    }
+    .navlogo img{
+        height: 5vw;
+    }
+    .search_accountbar{
+        padding-left: 57%;
+    }
+    .subheader{
+        padding-bottom: 7%;
+    }
+    .form_header{
+        padding: 0% 0% 0% 0%;
+        margin: 0% 0% 0% -8%;
+    }
+    .login_form{
+        width: 89%;
+    }
+    .login_formm{
+        
+    }
+    .footer_left{
+        padding-left: 2%;
+    }
+    .footer_center{
+        padding-left: 20%;
+    }
+}
+
+
+/* media quary for i pad */
+@media screen and (min-width:477px) and (max-width: 767px){
+    .navlist{
+        display: none;
+    }
+    .nav{
+        display: flex;
+        flex-direction: column;
+    }
+    .navlogo img{
+        height: 8vw;
+        padding-left: 33%;
+    }
+    .search_accountbar{
+        padding-left: 41%;
+    }
+    .search_accountbar p{
+        font-size: 2vw;
+    }
+    .subheader{
+        padding-bottom: 7%;
+        padding-top: 1%;
+    }
+    .form_header{
+        padding: 0% 0% 0% 9.5%;
+        margin: 0% 0% 0% 0%;
+    }
+    .form_header p{
+        font-size: 7vw;
+    }
+    #lb_username{
+        font-size: 1.8vw;
+    }
+    #lb_password {
+        font-size: 1.8vw;
+    }
+    #lb_checkbox{
+        font-size: 1.8vw;
+    }
+    .frm5 a{
+        margin: 1vw;
+    }
+    #frm1_1_in{
+        height: 5vw;
+    }
+    #submit{
+        height: 5vw;
+        width: 10vw;
+        font-size: 2vw;
+        margin-bottom: 3vw;
+    }
+    .login_form{
+        width: 63%;
+        height: 35vw;
+    }
+    .login_formm{
+    
+    }
+    .footer_left{
+        padding-left: 2%;
+    }
+    .footer_center{
+        padding-left: 20%;
+    }
+    .footer{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .footer_left{
+        padding-left: 34%;
+    }
+    .footer_center{
+        padding-left: 34%;
+    }
+    .footer_right{
+        padding-left: 34%;
+        text-align: center;
+    }
+    #footer_left_1{
+        letter-spacing: 0.2vw;
+        font-size: 1.6vw;
+        padding-left: 2v;
+        font-weight: 600;
+    }
+    #contact{
+        font-size: 2.5vw;
+    }
+    .linls{
+        padding-left: 26%;
+    }
+    .linls1{
+        padding-left: 26%;
+    }
+    .footer_center p{
+        font-size: 2vw;
+        font-weight: 600;
+    }
+    .linls ul li a{
+        line-height: 3vw;
+    }
+    .linls1 ul li a{
+        line-height: 3vw;
+    }
+    #footer_right_info{
+        font-size: 1.7vw;
+        line-height: 3vw;
+        padding-top: 2vw;
+    }
+    #heading{
+        font-size: 2vw;
+    }
+    #footer_right_inf{
+        font-size: 2vw;
+    }
+}
+
+
+
+
+
+/* media quary for mobile */
+@media screen and (min-width:300px) and (max-width: 477px){
+    .navlist{
+        display: none;
+    }
+    .nav{
+        display: flex;
+        flex-direction: column;
+    }
+    .navlogo img{
+        height: 10vw;
+        padding-left: 31%;
+    }
+    .search_accountbar{
+        padding-left: 38%;
+    }
+    .search_accountbar p{
+        font-size: 3vw;
+    }
+    .subheader{
+        padding-bottom: 11%;
+        padding-top: 8%;
+        font-size: 9vw;
+
+    }
+    .form_header{
+        padding: 0% 0% 0% 0%;
+        margin: 0% 0% 0% -2%;
+    }
+    .form_header p{
+        font-size: 9vw;
+        padding-bottom: 3vw;
+    }
+    #lb_username{
+        font-size: 2.7vw;
+    }
+    #lb_password {
+        font-size: 2.7vw;
+    }
+    #lb_checkbox{
+        font-size: 2.7vw;
+    }
+    .frm5 a{
+        margin: 1vw;
+    }
+    #frm1_1_in{
+        height: 7vw;
+    }
+    #submit{
+        height: 7vw;
+        width: 13vw;
+        font-size: 2vw;
+        margin-bottom: 3vw;
+    }
+    .login_form{
+        width: 82%;
+        height: 50vw;
+    }
+    .login_formm{
+    
+    }
+    .footer_left{
+        padding-left: 2%;
+    }
+    .footer_center{
+        padding-left: 20%;
+    }
+    .footer_left{
+        padding-left: 2%;
+    }
+    .footer_center{
+        padding-left: 20%;
+    }
+    .footer{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .footer_left{
+        padding-left: 34%;
+    }
+    .footer_center{
+        padding-left: 34%;
+    }
+    .footer_right{
+        padding-left: 34%;
+        text-align: center;
+    }
+    .footer_left img{
+        margin-left: -29%;
+    }
+    #footer_left_1{
+        letter-spacing: 0.2vw;
+        font-size: 2vw;
+        padding-left: 2v;
+        font-weight: 600;
+    }
+    #contact{
+        font-size: 3.1vw;
+    }
+    .linls{
+        padding-left: 11%;
+        line-height: 6vw;
+    }
+    .linls1{
+        padding-left: 22%;
+        line-height: 6vw;
+    }
+    .footer_center p{
+        font-size: 2.7vw;
+        font-weight: 650;
+    }
+    .linls ul li a{
+        line-height: 3vw;
+    }
+    .linls1 ul li a{
+        line-height: 3vw;
+    }
+    #footer_right_info{
+        font-size: 2.5vw;
+        line-height: 4vw;
+        padding-top: 2vw;
+    }
+    #heading{
+        font-size: 3vw;
+    }
+    #footer_right_inf{
+        font-size: 2vw;
+    }
 }
